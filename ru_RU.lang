@@ -12,8 +12,8 @@ achievement.thermalexpansion.pulverizer.desc=Маленькая руда.
 achievement.thermalexpansion.sawmill=Ненавидьте деревья, любите древесину
 achievement.thermalexpansion.sawmill.desc=Как рубка деревьев, но лучше.
 achievement.thermalexpansion.smelter=Два слитка входит, один слиток выходит
-achievement.thermalexpansion.smelter.desc=Абсолютно не для еды.
-achievement.thermalexpansion.crucible=Рассплавляйте всё
+achievement.thermalexpansion.smelter.desc=Точно не для еды.
+achievement.thermalexpansion.crucible=Расплавляйте всё
 achievement.thermalexpansion.crucible.desc=Да, он может делать лаву. Вы монстр.
 achievement.thermalexpansion.transposer=(В основном) Бесплатное заполнение
 achievement.thermalexpansion.transposer.desc=Заполнять вёдра руками - тяжёлая работа.
@@ -32,7 +32,7 @@ achievement.thermalexpansion.wrench=Выглядит как гвоздь!
 achievement.thermalexpansion.wrench.desc=Любой инструмент - молоток, если Вам он *действительно* нужен.
 achievement.thermalexpansion.multimeter=B.S.E.E.
 achievement.thermalexpansion.multimeter.desc=Несчастных случаев не бывает, только счастливые случайности.
-achievement.thermalexpansion.schematic=No Scheming Involved
+achievement.thermalexpansion.schematic=Никого коварства
 achievement.thermalexpansion.schematic.desc=Это больше чем план.
 achievement.thermalexpansion.florb=Я могу метнуть это?!
 achievement.thermalexpansion.florb.desc=Содержит жидкость. Вы можете метнуть его.
@@ -53,7 +53,7 @@ achievement.thermalexpansion.fluidPyrotheum.desc=На самом деле он �
 achievement.thermalexpansion.fluidCryotheum=Зима приближается
 achievement.thermalexpansion.fluidCryotheum.desc=Он также хуже, чем лава, за исключением того, что он - холод. Вы йети.
 achievement.thermalexpansion.fluidMana=Когда магия знакомится с технологией.
-achievement.thermalexpansion.fluidMana.desc=What is this I don't even?
+achievement.thermalexpansion.fluidMana.desc=Что это? Я даже не знаю.
 achievement.thermalexpansion.fluidCoal=Разжижение - спасение!
 achievement.thermalexpansion.fluidCoal.desc=Это *возможно* не хорошо для окружающей среды.
 
@@ -75,6 +75,7 @@ config.thermalexpansion.security=Безопасность
 config.thermalexpansion.tweak=Настройки
 config.thermalexpansion.tweak.crafting=Crafting Handlers
 config.thermalexpansion.tweak.recipe=Рецепты
+config.thermalexpansion.tweak.sound=Звук
 
 #Cell
 info.thermalexpansion.decRecv=Уменьшение входа RF на
@@ -92,9 +93,9 @@ info.thermalexpansion.noSchematic=Нет схемы
 info.thermalexpansion.writeSchematic=Написать схему
 
 #Activator
-info.thermalexpansion.angleLevel=Aim Level
-info.thermalexpansion.angleLow=Aim Low
-info.thermalexpansion.angleHigh=Aim High
+info.thermalexpansion.angleLevel=Уровень прицеливания
+info.thermalexpansion.angleLow=Целиться ниже
+info.thermalexpansion.angleHigh=Целиться выше
 info.thermalexpansion.clickLeft=ЛКМ
 info.thermalexpansion.clickRight=ПКМ
 info.thermalexpansion.slotsFirst=Только первый слот
@@ -104,6 +105,7 @@ info.thermalexpansion.sneakOff=Стоя
 info.thermalexpansion.sneakOn=Сидя
 
 #Tesseract
+info.thermalexpansion.inactive=Неактивный
 info.thermalexpansion.modeBlocked=Заблокированный
 info.thermalexpansion.modeEnergy=Режим энергии
 info.thermalexpansion.modeFluid=Режим жидкости
@@ -124,24 +126,25 @@ info.thermalexpansion.hardened=Усилен.
 info.thermalexpansion.reinforced=Укреплён.
 info.thermalexpansion.resonant=Резонирующ.
 
-info.thermalexpansion.augment=Прирост
+info.thermalexpansion.augment=Расширение
 info.thermalexpansion.augment.energyProduced=Энергии произведено
 info.thermalexpansion.augment.energyConsumed=Энергии потреблено
 info.thermalexpansion.augment.fuelConsumed=Топлива потреблено
+info.thermalexpansion.augment.fuelEnergy=Основная энергия топлива
 info.thermalexpansion.augment.levels.0=Требуется, чтобы предыдущие уровни были установлены.
-info.thermalexpansion.augment.levels.1=Высочайший уровень прироста используется.
+info.thermalexpansion.augment.levels.1=Используется высочайший уровень расширения.
 info.thermalexpansion.augment.machine.0=Требуется
 info.thermalexpansion.augment.machine.1=механизм
 info.thermalexpansion.augment.secondaryChance=Вторичный шанс
 info.thermalexpansion.augment.speed=Скорость
 
 info.thermalexpansion.augment.dynamoCoilDuct=Генератор: Сторонняя доступность
-info.thermalexpansion.augment.dynamoCoilDuct.0=Позволяет вводить и выводить предметы и жидкости через катушку генератора.
+info.thermalexpansion.augment.dynamoCoilDuct.0=Позволяет вводить/выводить предметы и жидкости через катушку генератора.
 info.thermalexpansion.augment.dynamoEfficiency=Генератор: Эффективность топлива
 info.thermalexpansion.augment.dynamoOutput=Генератор: Выходная энергия
 info.thermalexpansion.augment.dynamoOutput.0=Дополнительный RF/т
-info.thermalexpansion.augment.dynamoThrottle=Генератор: Advanced Throttling
-info.thermalexpansion.augment.dynamoThrottle.0=Improves the throttling of a dynamo such that it may reduce energy output to 0 RF/t.
+info.thermalexpansion.augment.dynamoThrottle=Генератор: Продвинутое регулирование
+info.thermalexpansion.augment.dynamoThrottle.0=Улучшает регулирование генератора так, что он может уменьшить выход энергии до 0 RF/т.
 
 info.thermalexpansion.augment.generalAutoTransfer=Автоматический выход
 info.thermalexpansion.augment.generalAutoTransfer.0=Позволяет предметам и жидкостям автоматически выводиться из устройства.
@@ -201,14 +204,14 @@ item.thermalexpansion.armor.invarPlate.name=Инваровый нагрудни�
 item.thermalexpansion.armor.invarLegs.name=Инваровые поножи
 item.thermalexpansion.armor.invarBoots.name=Инваровые ботинки
 
-item.thermalexpansion.augment.dynamoCoilDuct.name=Transmission Coil Ducting
-item.thermalexpansion.augment.dynamoEfficiency0.name=Secondary Gearbox
-item.thermalexpansion.augment.dynamoEfficiency1.name=Flux Linkage Optimization
-item.thermalexpansion.augment.dynamoEfficiency2.name=CryoCoil Regulator
+item.thermalexpansion.augment.dynamoCoilDuct.name=Канал отдающей катушки
+item.thermalexpansion.augment.dynamoEfficiency0.name=Вторичный редуктор
+item.thermalexpansion.augment.dynamoEfficiency1.name=Оптимизация флаксовой связи
+item.thermalexpansion.augment.dynamoEfficiency2.name=Регулятор криогенной катушки
 item.thermalexpansion.augment.dynamoOutput0.name=Вторичная отдающая катушка
-item.thermalexpansion.augment.dynamoOutput1.name=Flux Modulation Booster
-item.thermalexpansion.augment.dynamoOutput2.name=CryoCoil Flux Amplifier
-item.thermalexpansion.augment.dynamoThrottle.name=Excitation Field Limiter
+item.thermalexpansion.augment.dynamoOutput1.name=Усилитель модуляции флакса
+item.thermalexpansion.augment.dynamoOutput2.name=Флаксовый усилитель криогенной катушки
+item.thermalexpansion.augment.dynamoThrottle.name=Ограничитель поля намагничивания
 
 item.thermalexpansion.augment.generalAutoTransfer.name=Интегрированный сервомеханизм
 item.thermalexpansion.augment.generalReconfigSides.name=Интегрированная модульная структура
@@ -216,10 +219,10 @@ item.thermalexpansion.augment.generalRedstoneControl.name=Интегрирова
 
 item.thermalexpansion.augment.machineSecondary0.name=Вторичное сито
 item.thermalexpansion.augment.machineSecondary1.name=Стабилизированная рамка
-item.thermalexpansion.augment.machineSecondary2.name=GyroServo Feedback
+item.thermalexpansion.augment.machineSecondary2.name=Отклик гиросервомеханизма
 item.thermalexpansion.augment.machineSpeed0.name=Вторичная принимающая катушка
-item.thermalexpansion.augment.machineSpeed1.name=Overclocked Modular Gearbox
-item.thermalexpansion.augment.machineSpeed2.name=Space-Time Flux Unifier
+item.thermalexpansion.augment.machineSpeed1.name=Разогнанный модульный редуктор
+item.thermalexpansion.augment.machineSpeed2.name=пространственно-временной унификатор флакса
 
 item.thermalexpansion.capacitor.creative.name=Творческий флаксовый конденсатор
 item.thermalexpansion.capacitor.potato.name=Неровный флаксовый конденсатор
@@ -332,7 +335,7 @@ tab.thermalexpansion.machine.assembler.1=Использует 20 RF (Redstone Fl
 tab.thermalexpansion.machine.assembler.2=Нет, он не будет делать это.
 tab.thermalexpansion.machine.charger.0=Заряжает энергией совместимые предметы.
 tab.thermalexpansion.machine.charger.1=Размер заряда может быть ограничен для предмета.
-tab.thermalexpansion.machine.charger.2=Feel the hum.
+tab.thermalexpansion.machine.charger.2=Почувствуйте гул.
 
 tab.thermalexpansion.satchel.0=Это ранец. Не будет хранить некоторые вещи.
 tab.thermalexpansion.satchel.1=Нет возмещений.
@@ -387,7 +390,11 @@ tile.thermalexpansion.glass.name=Закалённое стекло
 
 tile.thermalexpansion.light.name=6-режимное освещение
 tile.thermalexpansion.light.illuminator.name=Светильник из светящегося камня
-tile.thermalexpansion.light.lampBasic.name=Светильник
+tile.thermalexpansion.light.lampBasic.name=Сияющий люмиум-светильник
+tile.thermalexpansion.light.lampBasicAlt.name=Люмиум-светильник
+tile.thermalexpansion.light.illuminatorDim.name=Приглушённый светильник из светящегося камня
+tile.thermalexpansion.light.lampDim.name=Приглушённый сияющий люмиум-светильник
+tile.thermalexpansion.light.lampDimAlt.name=Приглушённый люмиум-светильник
 
 tile.thermalexpansion.machine.furnace.name=Красная печь
 tile.thermalexpansion.machine.pulverizer.name=Измельчитель
@@ -400,6 +407,11 @@ tile.thermalexpansion.machine.extruder.name=Вулканический прес�
 tile.thermalexpansion.machine.accumulator.name=Водяной накопитель
 tile.thermalexpansion.machine.assembler.name=Циклический сборщик
 tile.thermalexpansion.machine.charger.name=Энергетический зарядник
+
+tile.thermalexpansion.plate.frame.name=Пластина
+tile.thermalexpansion.plate.impulse.name=Импульсная пластина
+tile.thermalexpansion.plate.signal.name=Красная пластина
+tile.thermalexpansion.plate.translocate.name=Транслокационная пластина
 
 tile.thermalexpansion.rockwool.black.name=Чёрная минеральная шерсть
 tile.thermalexpansion.rockwool.red.name=Красная минеральная шерсть
