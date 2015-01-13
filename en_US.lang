@@ -445,3 +445,16 @@ tile.thermalexpansion.tank.basic.name=Portable Tank
 tile.thermalexpansion.tank.hardened.name=Hardened Portable Tank
 tile.thermalexpansion.tank.reinforced.name=Reinforced Portable Tank
 tile.thermalexpansion.tank.resonant.name=Resonant Portable Tank
+
+#TCon compat
+material.thermalexpansion.invar=Invar
+material.thermalexpansion.nickel=Ferrous
+material.thermalexpansion.lead=Lead
+material.thermalexpansion.lead.ability=Heavy
+material.thermalexpansion.silver=Silver
+material.thermalexpansion.silver.ability=Shiny
+material.thermalexpansion.platinum=Shiny
+material.thermalexpansion.platinum.ability=Dense
+material.thermalexpansion.electrum=Electrum
+material.thermalexpansion.electrum.ability=Fancy
+#material.thermalexpansion.
