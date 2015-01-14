@@ -445,3 +445,16 @@ tile.thermalexpansion.tank.basic.name=Переносной бак
 tile.thermalexpansion.tank.hardened.name=Усиленный переносной бак
 tile.thermalexpansion.tank.reinforced.name=Укреплённый переносной бак
 tile.thermalexpansion.tank.resonant.name=Резонирующий переносной бак
+
+#TCon compat
+material.thermalexpansion.invar=Инвар
+material.thermalexpansion.nickel=Никель
+material.thermalexpansion.lead=Свинец
+material.thermalexpansion.lead.ability=Тяжесть
+material.thermalexpansion.silver=Серебро
+material.thermalexpansion.silver.ability=Блеск
+material.thermalexpansion.platinum=Платина
+material.thermalexpansion.platinum.ability=Плотность
+material.thermalexpansion.electrum=Электрум
+material.thermalexpansion.electrum.ability=Красота
+#material.thermalexpansion.
