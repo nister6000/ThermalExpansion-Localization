@@ -265,7 +265,7 @@ item.thermalexpansion.tool.invarFishingRod.name=Vara de Pescar Reforçada de Inv
 item.thermalexpansion.tool.invarSickle.name=Foice de Invar
 item.thermalexpansion.tool.invarBow.name=Arco Reforçado de Invar
 
-item.thermalexpansion.tool.wrench.name=Martelo Crescente
+item.thermalexpansion.tool.wrench.name=Crescent Hammer
 item.thermalexpansion.tool.multimeter.name=Multímetro
 item.thermalexpansion.tool.debugger.name=Depurador
 item.thermalexpansion.tool.igniter.name=Ignição por Flux
@@ -445,3 +445,16 @@ tile.thermalexpansion.tank.basic.name=Tanque Portátil
 tile.thermalexpansion.tank.hardened.name=Tanque Portátil Endurecido
 tile.thermalexpansion.tank.reinforced.name=Tanque Portátil Reforçado
 tile.thermalexpansion.tank.resonant.name=Tanque Portátil Ressonante
+
+#TCon compat
+material.thermalexpansion.invar=Invar
+material.thermalexpansion.nickel=Ferrous
+material.thermalexpansion.lead=Chumbo
+material.thermalexpansion.lead.ability=Pesado
+material.thermalexpansion.silver=Prata
+material.thermalexpansion.silver.ability=Brilhante
+material.thermalexpansion.platinum=Brilhante
+material.thermalexpansion.platinum.ability=Denso
+material.thermalexpansion.electrum=Electrum
+material.thermalexpansion.electrum.ability=Extravagante 
+#material.thermalexpansion.
