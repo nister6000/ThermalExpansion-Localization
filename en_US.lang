@@ -275,6 +275,9 @@ itemGroup.thermalexpansion.creativeTabTools=Thermal Expansion: Tools
 itemGroup.thermalexpansion.creativeTabItems=Thermal Expansion: Items
 itemGroup.thermalexpansion.creativeTabFlorbs=Thermal Expansion: Florbs
 
+#NEI Recipe
+recipe.thermalexpansion.upgrade=Upgrade Crafting
+
 #Info Tabs
 tab.thermalexpansion.cell.0=Stores Redstone Flux.
 tab.thermalexpansion.cell.1=Hold Shift or Ctrl to fine tune energy control.
