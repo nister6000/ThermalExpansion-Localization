@@ -194,6 +194,11 @@ info.thermalexpansion.florb.3=Yes, you can throw it.
 info.thermalexpansion.florb.4=This fluid is lighter than air.
 info.thermalexpansion.florb.5=The Florb will travel further.
 
+info.thermalexpansion.tool.battleWrench=90% hammer, 10% wrench.
+info.thermalexpansion.tool.wrench.0=Sure, it's a wrench.
+info.thermalexpansion.tool.wrench.1=But any tool is a hammer
+info.thermalexpansion.tool.wrench.2=if you need it to be one.
+
 info.thermalexpansion.securable=Securable with a lock.
 info.thermalexpansion.storage.enchant=Can be enchanted to hold more items.
 info.thermalexpansion.wrench=Wrench while sneaking to dismantle.
